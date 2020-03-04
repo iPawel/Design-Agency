@@ -1,0 +1,7 @@
+.page-section {
+    padding: 2.9rem 0;
+
+    @include atSmall {
+        padding: 6rem 0;
+    }
+}

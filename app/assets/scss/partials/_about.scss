@@ -1,0 +1,30 @@
+.about {
+    text-align: center;
+
+    @include atMedium {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__item {
+        margin: 3rem 0;
+        padding: 2rem 0;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    &__link {
+        font-size: 1.4rem;
+        display: inline-block;
+        margin-top: .8rem;
+        color: $secondary-color;
+    }
+
+
+    & .fa {
+        display: block;
+        font-size: 3rem;
+    }
+}

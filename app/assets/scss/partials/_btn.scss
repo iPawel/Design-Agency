@@ -1,0 +1,29 @@
+.btn {
+    display: inline-block;
+    font-size: 1.1rem;
+    padding: 1rem 2rem;
+    color: white;
+    background-color: $primary-color;
+    border: none;
+    outline: none;
+
+
+    @include atSmall {
+        padding: 1.3rem 2.6rem;
+    }
+
+    &--white {
+        font-weight: 400;
+        color: $primary-color;
+        background-color: #fff;
+        border: 1px solid $primary-color;
+    }
+
+    &--small {
+        padding: .6rem 1.3rem;
+
+        @include atSmall {
+            padding: .8rem 1.6rem;
+        }
+    }
+}

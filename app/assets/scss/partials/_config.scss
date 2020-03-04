@@ -1,0 +1,39 @@
+// ****************  Variables   **************
+
+$primary-color: rgb(28, 28, 31);
+$secondary-color: rgb(133, 136, 148);
+$blue: rgb(64, 180, 229);
+
+
+
+// ************* Mixins    ***************
+
+@mixin pseudo ($content: "", $position: absolute, $display: block) {
+    content: $content;
+    position: $position;
+    display: $display;
+}
+
+
+
+
+// ************    Media Querys    ************
+
+@mixin atSmall {
+    @media (min-width: 530px) {
+        @content;
+    }
+}
+
+
+@mixin atMedium {
+    @media (min-width: 800px) {
+        @content;
+    }
+}
+
+@mixin atSmall {
+    @media (min-width: 1200px) {
+        @content;
+    }
+}

@@ -1,0 +1,36 @@
+.headline {
+    font-family: 'spartan', sans-serif;
+    font-size: 2.6rem;
+    line-height: 1.3;
+    color: $primary-color;
+
+
+    @include atSmall {
+        font-size: 3.8rem;
+        font-weight: 200;
+
+    }
+
+
+
+    &--small {
+        font-size: 1.6rem;
+
+        @include atSmall {
+            font-size: 1.8rem;
+            font-weight: 300;
+        }
+    }
+
+    &--centered {
+        text-align: center;
+    }
+
+    &--b-margin-small {
+        margin-bottom: .5em;
+    }
+
+    &--b-margin-medium {
+        margin-bottom: 1.5em;
+    }
+}
