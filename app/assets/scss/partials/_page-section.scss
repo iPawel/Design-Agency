@@ -2,6 +2,13 @@
     padding: 2.9rem 0;
 
     @include atSmall {
-        padding: 6rem 0;
+        padding: 5rem 0;
+    }
+
+
+    &--padding-top-XL {
+        @include atLarge {
+            padding-top: 9rem;
+        }
     }
 }

@@ -1,0 +1,25 @@
+.our-projects__container {
+
+
+    @include atMedium {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 60px;
+    }
+}
+
+.our-projects__content {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &--black {
+        background-color: $primary-color;
+    }
+
+    &--gray {
+        background-color: rgba($secondary-color, 0.1);
+    }
+}

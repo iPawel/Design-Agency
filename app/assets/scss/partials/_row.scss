@@ -1,0 +1,32 @@
+.row {
+
+
+    @include atMedium {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__medium-6 {
+
+        @include atMedium {
+            width: 43%;
+            justify-content: center;
+        }
+
+        &--b-margin-until-medium {
+            margin-bottom: 1rem;
+
+            @include atMedium {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}

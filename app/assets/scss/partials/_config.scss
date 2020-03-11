@@ -2,6 +2,7 @@
 
 $primary-color: rgb(28, 28, 31);
 $secondary-color: rgb(133, 136, 148);
+// $light-gray:;
 $blue: rgb(64, 180, 229);
 
 
@@ -32,7 +33,7 @@ $blue: rgb(64, 180, 229);
     }
 }
 
-@mixin atSmall {
+@mixin atLarge {
     @media (min-width: 1200px) {
         @content;
     }

@@ -1,0 +1,21 @@
+.footer {
+    width: 100%;
+    padding: 3rem;
+    background-color: rgba($secondary-color, 0.1);
+
+    &__content {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+
+
+        @include atSmall {
+            grid-template-columns: repeat(2, 1fr);
+
+        }
+
+        @include atMedium {
+            grid-template-columns: repeat(4, 1fr);
+        }
+    }
+}

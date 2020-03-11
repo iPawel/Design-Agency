@@ -1,0 +1,27 @@
+.team {
+    padding: 0 1rem;
+
+    @include atMedium {
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    &__content {
+        display: flex;
+        padding: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        @include atMedium {
+            padding: 0 4rem;
+
+            &--gray {
+                background-color: rgba($secondary-color, 0.1);
+            }
+        }
+
+
+    }
+}
