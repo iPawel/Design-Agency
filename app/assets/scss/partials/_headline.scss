@@ -46,10 +46,10 @@
         margin-bottom: 1.5em;
     }
 
-    &--t-margin-small-until-small {
+    &--t-margin-small-until-medium {
         margin-top: .5em;
 
-        @include atSmall {
+        @include atMedium {
             margin-top: 0;
         }
     }

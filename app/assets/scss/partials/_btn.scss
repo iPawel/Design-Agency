@@ -1,46 +1,52 @@
 .btn {
-    display: block;
-    font-size: 1.1rem;
-    padding: 1rem 2rem;
-    color: white;
-    background-color: $primary-color;
-    border: none;
-    outline: none;
+	display: block;
+	font-size: 1.1rem;
+	padding: 1rem 2rem;
+	color: white;
+	background-color: $primary-color;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: transform 0.1s linear;
 
+	&:hover {
+		transform: scale(0.93);
+		opacity: .85;
+	}
 
-    @include atSmall {
-        padding: 1.3rem 3rem;
-    }
+	@include atSmall {
+		padding: 1.3rem 3rem;
+	}
 
-    &--white {
-        font-weight: 400;
-        color: $primary-color;
-        background-color: #fff;
-        border: 1px solid $primary-color;
-    }
+	&--white {
+		font-weight: 400;
+		color: $primary-color;
+		background-color: #fff;
+		border: 1px solid $primary-color;
+	}
 
-    &--small {
-        padding: .6rem 1.3rem;
+	&--small {
+		padding: 0.6rem 1.3rem;
 
-        @include atSmall {
-            padding: .8rem 1.6rem;
-        }
-    }
+		@include atSmall {
+			padding: 0.8rem 1.6rem;
+		}
+	}
 
-    &--t-margin-small {
-        margin-top: 1.1rem;
-    }
+	&--t-margin-small {
+		margin-top: 1.1rem;
+	}
 
-    &--t-margin-large {
-        margin-top: 3.5rem;
+	&--t-margin-large {
+		margin-top: 3.5rem;
 
-        @include atMedium {
-            margin-top: 5rem;
-        }
-    }
+		@include atMedium {
+			margin-top: 5rem;
+		}
+	}
 
-    &--centered {
-        margin-left: auto;
-        margin-right: auto;
-    }
+	&--centered {
+		margin-left: auto;
+		margin-right: auto;
+	}
 }

@@ -1,9 +1,13 @@
 .large-hero {
     width: 100%;
+    transition: .3s linear;
+    margin-top: 55px;
+
 
     @include atMedium {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        margin-top: 100px;
     }
 
     &__content {

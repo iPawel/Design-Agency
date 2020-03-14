@@ -1,31 +1,32 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
-    font-family: "lato", sans-serif;
-    letter-spacing: 1px;
+	font-family: "lato", sans-serif;
+	letter-spacing: 1px;
 }
 
 ul {
-    list-style: none;
+	list-style: none;
 }
 
 a {
-    color: $blue;
-    text-decoration: none;
+	color: $blue;
+	text-decoration: none;
 }
 
 img {
-    width: 100%;
-    height: auto;
+	width: 100%;
+	height: auto;
 }
 
-
 .container {
-    max-width: 1345px;
-    margin: 0 auto;
-    overflow: hidden;
+	max-width: 1345px;
+	// padding-left: 1rem;
+	// padding-right: 1rem;
+	margin: 0 auto;
+	overflow: hidden;
 }

@@ -4,12 +4,12 @@
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700|Spartan&display=swap&subset=latin-ext"
-		rel="stylesheet">
+		rel="stylesheet" />
 	<title>Design-Agency</title>
-	<meta name="keywords" content="">
-	<meta name="description" content="">
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
 </head>
 
 <body>
@@ -27,37 +27,47 @@
 				<ul class="menu__list">
 					<li class="menu__item"><a href="#" class="menu__link">Home</a></li>
 					<li class="menu__item"><a href="#" class="menu__link">About</a></li>
-					<li class="menu__item"><a href="#" class="menu__link">Services</a></li>
-					<li class="menu__item"><a href="#" class="menu__link">Contact</a></li>
+					<li class="menu__item">
+						<a href="#" class="menu__link">Services</a>
+					</li>
+					<li class="menu__item">
+						<a href="#" class="menu__link">Contact</a>
+					</li>
 				</ul>
+
+				<div class="side-menu">
+					<a href="#" class="side-menu__link">Sign in</a>
+					<button class="btn btn--white btn--small">Try it free</button>
+				</div>
 			</nav>
-			<div class="side-menu">
-				<a href="#" class="side-menu__link">Sign in</a>
-				<button class="btn btn--white btn--small">Try it free</button>
-			</div>
 		</header>
 		<section class="large-hero">
 			<div class="large-hero__content">
-				<h1 class="headline headline--b-margin-small">Nothing is impossible</h1>
-				<h2 class="headline headline--small headline--b-margin-medium">We are the best marketing agency</h2>
+				<h1 class="headline headline--b-margin-small">
+					Nothing is impossible
+				</h1>
+				<h2 class="headline headline--small headline--b-margin-medium">
+					We are the best marketing agency
+				</h2>
 				<button class="btn btn--large">Get Started</button>
 			</div>
-			<img src="design640.jpg" alt="" class="large-hero__img">
+			<img srcset="design400.jpg 400w, design640.jpg 640w, design1000.jpg 1000w" alt="Design ilustration on the blue background" class="large-hero__img" />
 		</section>
 		<div class="page-section page-section--padding-top-XL">
 			<div class="wrapper">
-				<h1 class="headline headline--centered headline--b-margin-small">Creative &
-					hardworker</h1>
+				<h1 class="headline headline--centered headline--b-margin-small">
+					Creative & hardworker
+				</h1>
 				<div class="about">
-					<div class="about__item">
+					<div class="about__item" data-aos="zoom-in">
 						<i class="fa fa-laptop"></i>
 						<a class="about__link" href="#">Quality Analysis</a>
 					</div>
-					<div class="about__item">
+					<div class="about__item" data-aos="zoom-in">
 						<i class="fa fa-globe"></i>
 						<a class="about__link" href="#">In Depth Production</a>
 					</div>
-					<div class="about__item">
+					<div class="about__item" data-aos="zoom-in">
 						<i class="fa fa-cog"></i>
 						<a class="about__link" href="#">Ongoing Support</a>
 					</div>
@@ -68,19 +78,23 @@
 			<div class="wrapper">
 				<div class="row">
 					<div class="row__medium-6">
-						<img src="section-mobile.jpg" alt="">
+						<picture class="img-blue">
+							<source srcset="section-b-600.jpg" media="(min-width: 800px)" />
+							<source srcset="section-b-landscape.jpg" media="(min-width: 530px)" />
+							<img src="section-b-small.jpg" data-aos="fade-right" alt="Mozaic on the blue background" />
+						</picture>
 					</div>
 					<div class="row__medium-6">
-						<div class="generic-content-container">
-							<h1 class="headline headline--t-margin-small-until-small">Illustration</h1>
-							<p>Illustration can be a fantastic way to help your brand stand out, and with
-								endless
-								possibilities,
-								a
-								unique design style can give businesses in even the blandest of sectors a bright
-								and
-								engaging
-								personality</p>
+						<div class="generic-content-container" data-aos="fade-left">
+							<h1 class="headline headline--t-margin-small-until-medium">
+								Illustration
+							</h1>
+							<p>
+								Illustration can be a fantastic way to help your brand stand
+								out, and with endless possibilities, a unique design style can
+								give businesses in even the blandest of sectors a bright and
+								engaging personality
+							</p>
 							<a href="#">Learn more <i class="fa fa-chevron-right"></i></a>
 						</div>
 					</div>
@@ -91,50 +105,66 @@
 			<div class="wrapper">
 				<div class="row">
 					<div class="row__medium-6 row__medium-6--b-margin-until-medium">
-						<div class="generic-content-container">
-							<h1 class="headline headline--t-margin-small-until-small">UI Design</h1>
-							<p>We understand the importance of listening to you and gaining a feel for your
-								business
+						<div class="generic-content-container" data-aos="zoom-in">
+							<h1 class="headline headline--t-margin-small-until-small">
+								UI Design
+							</h1>
+							<p>
+								We understand the importance of listening to you and gaining a
+								feel for your business
 							</p>
 							<a href="#">Learn more <i class="fa fa-chevron-right"></i></a>
 						</div>
 					</div>
 					<div class="row__medium-6">
-						<img src="section-portrait-310.jpg" alt="Blue desk">
+						<picture>
+							<source srcset="blue-portrait.jpg" media="(min-width: 800px)" />
+							<source srcset="blue-landscape.jpg" media="(min-width: 530px)" />
+							<img src="section-blue-310.jpg" data-aos="zoom-in" alt="Blue desk" />
+						</picture>
 					</div>
 				</div>
 			</div>
 		</section>
 		<div class="page-section">
 			<section class="our-projects">
-				<h1 class="headline headline--centered headline--b-margin-medium">Our Projects</h1>
+				<h1 class="headline headline--centered headline--b-margin-medium">
+					Our Projects
+				</h1>
 				<div class="our-projects__container">
 					<div class="our-projects__content our-projects__content--gray">
 						<div class="generic-content-container">
-							<h1 class="headline--medium headline--b-margin-small">Bubbble</h1>
+							<h1 class="headline--medium headline--b-margin-small">
+								Bubbble
+							</h1>
 							<a href="#">View details <i class="fa fa-chevron-right"></i></a>
 						</div>
 					</div>
 					<div class="our-projects__content our-projects__content--black">
 						<div class="generic-content-container">
-							<h1 class="headline--medium headline--white headline--b-margin-small">Creator</h1>
+							<h1 class="headline--medium headline--white headline--b-margin-small">
+								Creator
+							</h1>
 							<a href="#">View details <i class="fa fa-chevron-right"></i></a>
 						</div>
 					</div>
 				</div>
-				<button class="btn btn--black btn--t-margin-large btn--centered">View All</button>
+				<button class="btn btn--black btn--t-margin-large btn--centered">
+					View All
+				</button>
 			</section>
 		</div>
 		<div class="page-section">
 			<section class="team">
-				<img src="team-460.jpg" alt="">
-				<div class="team__content team__content--gray">
+				<img srcset="team-360.jpg 360w, team-460.jpg 460w, team-800.jpg 800w" data-aos="fade-right" alt="Happy people in the office" />
+				<div class="team__content team__content--gray" data-aos="fade-left">
 					<div class="generic-content-container">
-						<h1 class="headline headline--t-margin-small-until-small headline--medium">Meet the Team</h1>
-						<p>We flew half way around the world to create an awesome website for one client. What could we
-							do
-							for
-							you?
+						<h1 class="headline headline--t-margin-small-until-medium headline--medium">
+							Meet the Team
+						</h1>
+						<p>
+							We flew half way around the world to create an awesome website
+							for one client. What could we do for you?
 						</p>
 						<a href="#">Learn more <i class="fa fa-chevron-right"></i></a>
 					</div>
@@ -144,7 +174,9 @@
 		<div class="page-section">
 			<div class="wrapper">
 				<div class="contact">
-					<h1 class="headline headline--centered headline--b-margin-medium">Corporate Address</h1>
+					<h1 class="headline headline--centered headline--b-margin-medium">
+						Corporate Address
+					</h1>
 					<div class="generic-content-container">
 						<div class="contact__content">
 							<span>Yolo Marketing, Inc.</span>
@@ -153,7 +185,9 @@
 							<span>716.21.34.2664</span>
 						</div>
 					</div>
-					<button class="btn btn-black btn--t-margin-large btn--centered">Contact Us</button>
+					<button class="btn btn-black btn--t-margin-large btn--centered">
+						Contact Us
+					</button>
 				</div>
 			</div>
 		</div>
@@ -191,15 +225,6 @@
 			</div>
 		</div>
 	</footer>
-
-
-
-
-	<i class="fa fa-laptop"></i>
-	<i class="fa fa-chevron-right"></i>
-	<i class="fa fa-globe"></i>
-	<i class="fa fa-user"></i>
-	<i class="fa fa-cog"></i>
 </body>
 
 </html>
