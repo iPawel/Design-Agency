@@ -8,7 +8,7 @@ module.exports = {
 	entry: "./app/assets/scripts/App.js",
 	output: {
 		filename: "js/[name]-[contenthash].js",
-		path: path.resolve(__dirname, "build")
+		path: path.resolve(__dirname, "docs")
 	},
 	mode: "production",
 	watch: true,

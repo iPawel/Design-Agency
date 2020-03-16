@@ -8,7 +8,7 @@ module.exports = {
     entry: "./app/assets/scripts/App.js",
     output: {
         filename: "js/[name].js",
-        path: path.resolve(__dirname, "build")
+        path: path.resolve(__dirname, "docs")
     },
     devServer: {
         open: true,

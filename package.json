@@ -24,7 +24,8 @@
 		"@babel/polyfill": "^7.8.3",
 		"aos": "^2.3.4",
 		"lazysizes": "^5.2.0",
-		"loadash": "^1.0.0"
+		"loadash": "^1.0.0",
+		"minimist": "^1.2.5"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.8.6",
